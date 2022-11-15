@@ -255,8 +255,8 @@ via the relevant public properties</long-description>
           <tag name="param" line="192" description="" type="string" variable="$domain">
             <type>string</type>
           </tag>
-          <tag name="throws" line="192" description="" type="\Freshdesk\Exceptions\InvalidConfigurationException">
-            <type>\Freshdesk\Exceptions\InvalidConfigurationException</type>
+          <tag name="throws" line="192" description="" type="\DiagVN\Freshdesk\Resources\InvalidConfigurationException">
+            <type>\DiagVN\Freshdesk\Resources\InvalidConfigurationException</type>
           </tag>
         </docblock>
         <argument line="0" by_reference="false">
@@ -279,10 +279,10 @@ via the relevant public properties</long-description>
       <long-description>User: Matt</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
-    <class final="false" abstract="false" namespace="Freshdesk\Exceptions" line="21" package="Exceptions">
-      <extends>\Freshdesk\Exceptions\ApiException</extends>
+    <class final="false" abstract="false" namespace="DiagVN\Freshdesk\Resources" line="21" package="Exceptions">
+      <extends>\DiagVN\Freshdesk\Resources\ApiException</extends>
       <name>AccessDeniedException</name>
-      <full_name>\Freshdesk\Exceptions\AccessDeniedException</full_name>
+      <full_name>\DiagVN\Freshdesk\Resources\AccessDeniedException</full_name>
       <docblock line="21">
         <description>Access Denied</description>
         <long-description>Thrown when the Freshdesk API returns a 403 error code. This indicates that
@@ -292,11 +292,11 @@ corresponding feature enabled. It could also indicate that the user has reached 
 attempts or that the account has reached the maximum number of agents</long-description>
         <tag name="package" line="21" description="Exceptions"/>
         <tag name="author" line="21" description="Matthew Clarkson" link="mailto:mpclarkson@gmail.com"/>
-        <tag name="inherited_from" description="\Freshdesk\Exceptions\ApiException" refers="\Freshdesk\Exceptions\ApiException" link="/classes/Freshdesk.Exceptions.ApiException.html"/>
+        <tag name="inherited_from" description="\DiagVN\Freshdesk\Resources\ApiException" refers="\DiagVN\Freshdesk\Resources\ApiException" link="/classes/Freshdesk.Exceptions.ApiException.html"/>
       </docblock>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Freshdesk\Exceptions" line="72" package="Exceptions">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="DiagVN\Freshdesk\Resources" line="72" package="Exceptions">
         <name>getRequestException</name>
-        <full_name>\Freshdesk\Exceptions\ApiException::getRequestException()</full_name>
+        <full_name>\DiagVN\Freshdesk\Resources\ApiException::getRequestException()</full_name>
         <docblock line="72">
           <description>Returns the Request Exception</description>
           <long-description>A Guzzle Request Exception is returned</long-description>
@@ -304,7 +304,7 @@ attempts or that the account has reached the maximum number of agents</long-desc
             <type>\GuzzleHttp\Exception\RequestException</type>
           </tag>
         </docblock>
-        <inherited_from>\Freshdesk\Exceptions\ApiException</inherited_from>
+        <inherited_from>\DiagVN\Freshdesk\Resources\ApiException</inherited_from>
       </method>
     </class>
     <source>eJyNkk9vE0EMxe/7KXxDyiFFghNU0KqA1ANSJeDGxZl1MqPMP+zZJoD47ryZ0JRy4rDSjsfz83u2L99WX6eL1WqiFd2ocJOZNt/pztdPrWha9/gXE31FH7k1nC6mKXMSq+yEPqiYn8X2X98fndQWSrbX0wPv2jkxo3eSg8w90L/PXssh08FLpub/QtD13S2ptEWzEdPL5y9IVIuSK7Os8S4YhTwHB42Gp9zVDATvJDcQiwk5lRmnwNHoICq0GByFTIn3Ie+QD4zKt0UMT9gol0a8NF80/EBmK1RFt7B+Su2iHMc4GnHbIGaJ6JAMAU9TBjbADvGcUDHKvcQngmAGcM/V/rFeizaONBex/KyR53vp9VxRpNQC15C+xXQWOJLMmyjz+lEO2OXcmwdlw7qC1f2y890cgomPIS2J8pI2uC5b2nIAjmLZhdyrYs6Sahtyzyx2KJXbf+DGNAygzrrCmuwRocf9GOFTx8dOeTnQTWTdW8l0mar783+1SxC2diW9GWuHOJbptFOnlTozSY5N8ozbGs7B6ef0a/oNWWr95Q==</source>
@@ -317,19 +317,19 @@ attempts or that the account has reached the maximum number of agents</long-desc
     </docblock>
     <namespace-alias name="Exception">\Exception</namespace-alias>
     <namespace-alias name="RequestException">\GuzzleHttp\Exception\RequestException</namespace-alias>
-    <class final="false" abstract="false" namespace="Freshdesk\Exceptions" line="20" package="Exceptions">
+    <class final="false" abstract="false" namespace="DiagVN\Freshdesk\Resources" line="20" package="Exceptions">
       <extends>\Exception</extends>
       <name>ApiException</name>
-      <full_name>\Freshdesk\Exceptions\ApiException</full_name>
+      <full_name>\DiagVN\Freshdesk\Resources\ApiException</full_name>
       <docblock line="20">
         <description>General Exception</description>
         <long-description>Thrown when the Freshdesk API returns an HTTP error code that isn't handled by other exceptions</long-description>
         <tag name="package" line="20" description="Exceptions"/>
         <tag name="author" line="20" description="Matthew Clarkson" link="mailto:mpclarkson@gmail.com"/>
       </docblock>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Freshdesk\Exceptions" line="72" package="Exceptions">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="DiagVN\Freshdesk\Resources" line="72" package="Exceptions">
         <name>getRequestException</name>
-        <full_name>\Freshdesk\Exceptions\ApiException::getRequestException()</full_name>
+        <full_name>\DiagVN\Freshdesk\Resources\ApiException::getRequestException()</full_name>
         <docblock line="72">
           <description>Returns the Request Exception</description>
           <long-description>A Guzzle Request Exception is returned</long-description>
@@ -347,21 +347,21 @@ attempts or that the account has reached the maximum number of agents</long-desc
       <long-description>User: Matt</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
-    <class final="false" abstract="false" namespace="Freshdesk\Exceptions" line="18" package="Exceptions">
-      <extends>\Freshdesk\Exceptions\ApiException</extends>
+    <class final="false" abstract="false" namespace="DiagVN\Freshdesk\Resources" line="18" package="Exceptions">
+      <extends>\DiagVN\Freshdesk\Resources\ApiException</extends>
       <name>AuthenticationException</name>
-      <full_name>\Freshdesk\Exceptions\AuthenticationException</full_name>
+      <full_name>\DiagVN\Freshdesk\Resources\AuthenticationException</full_name>
       <docblock line="18">
         <description>Authentication Exception</description>
         <long-description>Thrown when the Freshdesk API returns a 401 error,
 which indicates that the Authorization header is either missing or incorrect</long-description>
         <tag name="package" line="18" description="Exceptions"/>
         <tag name="author" line="18" description="Matthew Clarkson" link="mailto:mpclarkson@gmail.com"/>
-        <tag name="inherited_from" description="\Freshdesk\Exceptions\ApiException" refers="\Freshdesk\Exceptions\ApiException" link="/classes/Freshdesk.Exceptions.ApiException.html"/>
+        <tag name="inherited_from" description="\DiagVN\Freshdesk\Resources\ApiException" refers="\DiagVN\Freshdesk\Resources\ApiException" link="/classes/Freshdesk.Exceptions.ApiException.html"/>
       </docblock>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Freshdesk\Exceptions" line="72" package="Exceptions">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="DiagVN\Freshdesk\Resources" line="72" package="Exceptions">
         <name>getRequestException</name>
-        <full_name>\Freshdesk\Exceptions\ApiException::getRequestException()</full_name>
+        <full_name>\DiagVN\Freshdesk\Resources\ApiException::getRequestException()</full_name>
         <docblock line="72">
           <description>Returns the Request Exception</description>
           <long-description>A Guzzle Request Exception is returned</long-description>
@@ -369,7 +369,7 @@ which indicates that the Authorization header is either missing or incorrect</lo
             <type>\GuzzleHttp\Exception\RequestException</type>
           </tag>
         </docblock>
-        <inherited_from>\Freshdesk\Exceptions\ApiException</inherited_from>
+        <inherited_from>\DiagVN\Freshdesk\Resources\ApiException</inherited_from>
       </method>
     </class>
     <source>eJxdUEtLAzEQvudXzHkprYWetGhLUfAgFNSblzE7bMI2D2ambFX87yZr7YK35HvNfLO+yy6bRdMYaGDHhEotvH/A3uVnTRzmFX8V4mt4QtXyWxgTMZBktAQPTOJakv7t/mQpq09Rbsxf3vaojqJ6i5WAi6RwlX5xnIYIQ9FAEU5hsN0/ApMeOQogrK6WQMyJZ9U1OG8d+NjWWJLiRB3tdVpi//k7zBG2xOAFyBeWIXgRHztIBYw2MZPV8yKb0qXHjqYNZYRxTByLOxpgd0DupWSvQ7bn96YL6A9zm8LteJuCi/wrfkkFOinFtvDZT8f4Mt/mB+J0hEQ=</source>
@@ -380,10 +380,10 @@ which indicates that the Authorization header is either missing or incorrect</lo
       <long-description>User: Matt</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
-    <class final="false" abstract="false" namespace="Freshdesk\Exceptions" line="19" package="Exceptions">
-      <extends>\Freshdesk\Exceptions\ApiException</extends>
+    <class final="false" abstract="false" namespace="DiagVN\Freshdesk\Resources" line="19" package="Exceptions">
+      <extends>\DiagVN\Freshdesk\Resources\ApiException</extends>
       <name>ConflictingStateException</name>
-      <full_name>\Freshdesk\Exceptions\ConflictingStateException</full_name>
+      <full_name>\DiagVN\Freshdesk\Resources\ConflictingStateException</full_name>
       <docblock line="19">
         <description>Conflicting State Exception</description>
         <long-description>Thrown when the Freshdesk API returns a 409 code. The resource that is being created/updated is in an inconsistent
@@ -391,11 +391,11 @@ or conflicting state. For example, if you attempt to Create a Contact with an em
 an existing user, this code will be returned</long-description>
         <tag name="package" line="19" description="Exceptions"/>
         <tag name="author" line="19" description="Matthew Clarkson" link="mailto:mpclarkson@gmail.com"/>
-        <tag name="inherited_from" description="\Freshdesk\Exceptions\ApiException" refers="\Freshdesk\Exceptions\ApiException" link="/classes/Freshdesk.Exceptions.ApiException.html"/>
+        <tag name="inherited_from" description="\DiagVN\Freshdesk\Resources\ApiException" refers="\DiagVN\Freshdesk\Resources\ApiException" link="/classes/Freshdesk.Exceptions.ApiException.html"/>
       </docblock>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Freshdesk\Exceptions" line="72" package="Exceptions">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="DiagVN\Freshdesk\Resources" line="72" package="Exceptions">
         <name>getRequestException</name>
-        <full_name>\Freshdesk\Exceptions\ApiException::getRequestException()</full_name>
+        <full_name>\DiagVN\Freshdesk\Resources\ApiException::getRequestException()</full_name>
         <docblock line="72">
           <description>Returns the Request Exception</description>
           <long-description>A Guzzle Request Exception is returned</long-description>
@@ -403,7 +403,7 @@ an existing user, this code will be returned</long-description>
             <type>\GuzzleHttp\Exception\RequestException</type>
           </tag>
         </docblock>
-        <inherited_from>\Freshdesk\Exceptions\ApiException</inherited_from>
+        <inherited_from>\DiagVN\Freshdesk\Resources\ApiException</inherited_from>
       </method>
     </class>
     <source>eJxNUcFOwzAMvecrfJ6mjgMXYAKmiUkckCYNbly81FuitUkUu+omxL/jlKpbDlXqPD+/97x8SS6ZxWxmYAbrTChUw/4CW5d2EnNblfoXU36EDxTRv4UxAVvihJZgk4ldTXz6fjtbSuJj4Ccz8cVwaLwVH46wE6WGCaXPBfHpcuwD9I4CiLvhg9X2HTJJlwMDwv3dA9hYU6UdpHWOXdbx4lDAM+ypjLD/8hddqgcb+uADYNCvVV2ehUJxADEr2VUaF2kVbLRMZ2xTQ3PwB7jEDtQytUlA4hiOalFXglag9+IKO7Xom0kKNoqrL4DM0fpBxwAscwv4rDLK0E4znWuXthRjCmoa9TF6pnoM6FVjPuHxJjkeytiJU71lJ456WDeYTxwDLNtkx/vrsQirbGyfh7Vpnfl2J8NKJl6VpvnUDKvkr2v6MaDH/Jo/NJ+7gw==</source>
@@ -416,10 +416,10 @@ Date: 20/04/2016
 Time: 12:09 PM</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
-    <class final="false" abstract="false" namespace="Freshdesk\Exceptions" line="19" package="Exceptions">
+    <class final="false" abstract="false" namespace="DiagVN\Freshdesk\Resources" line="19" package="Exceptions">
       <extends>\Exception</extends>
       <name>InvalidConfigurationException</name>
-      <full_name>\Freshdesk\Exceptions\InvalidConfigurationException</full_name>
+      <full_name>\DiagVN\Freshdesk\Resources\InvalidConfigurationException</full_name>
       <docblock line="19">
         <description>Invalid Configuration Exception</description>
         <long-description>This indicates that the API was not initialized correctly</long-description>
@@ -435,10 +435,10 @@ Time: 12:09 PM</long-description>
       <long-description>User: Matt</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
-    <class final="false" abstract="false" namespace="Freshdesk\Exceptions" line="20" package="Exceptions">
-      <extends>\Freshdesk\Exceptions\ApiException</extends>
+    <class final="false" abstract="false" namespace="DiagVN\Freshdesk\Resources" line="20" package="Exceptions">
+      <extends>\DiagVN\Freshdesk\Resources\ApiException</extends>
       <name>MethodNotAllowedException</name>
-      <full_name>\Freshdesk\Exceptions\MethodNotAllowedException</full_name>
+      <full_name>\DiagVN\Freshdesk\Resources\MethodNotAllowedException</full_name>
       <docblock line="20">
         <description>Method Not Allowed Exception</description>
         <long-description>Thrown when the Freshdesk API returns a 405 code. This API request used the wrong HTTP verb/method.
@@ -446,11 +446,11 @@ For example an API PUT request on /api/v2/tickets endpoint will return a HTTP 40
 only GET and POST requests</long-description>
         <tag name="package" line="20" description="Exceptions"/>
         <tag name="author" line="20" description="Matthew Clarkson" link="mailto:mpclarkson@gmail.com"/>
-        <tag name="inherited_from" description="\Freshdesk\Exceptions\ApiException" refers="\Freshdesk\Exceptions\ApiException" link="/classes/Freshdesk.Exceptions.ApiException.html"/>
+        <tag name="inherited_from" description="\DiagVN\Freshdesk\Resources\ApiException" refers="\DiagVN\Freshdesk\Resources\ApiException" link="/classes/Freshdesk.Exceptions.ApiException.html"/>
       </docblock>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Freshdesk\Exceptions" line="72" package="Exceptions">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="DiagVN\Freshdesk\Resources" line="72" package="Exceptions">
         <name>getRequestException</name>
-        <full_name>\Freshdesk\Exceptions\ApiException::getRequestException()</full_name>
+        <full_name>\DiagVN\Freshdesk\Resources\ApiException::getRequestException()</full_name>
         <docblock line="72">
           <description>Returns the Request Exception</description>
           <long-description>A Guzzle Request Exception is returned</long-description>

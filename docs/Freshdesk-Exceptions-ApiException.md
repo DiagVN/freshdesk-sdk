@@ -1,4 +1,4 @@
-Freshdesk\Exceptions\ApiException
+DiagVN\Freshdesk\Resources\ApiException
 ===============
 
 General Exception
@@ -7,7 +7,7 @@ Thrown when the Freshdesk API returns an HTTP error code that isn't handled by o
 
 
 * Class name: ApiException
-* Namespace: Freshdesk\Exceptions
+* Namespace: DiagVN\Freshdesk\Resources
 * Parent class: Exception
 
 
@@ -22,7 +22,7 @@ Methods
 
 ### getRequestException
 
-    \GuzzleHttp\Exception\RequestException Freshdesk\Exceptions\ApiException::getRequestException()
+    \GuzzleHttp\Exception\RequestException DiagVN\Freshdesk\Resources\ApiException::getRequestException()
 
 Returns the Request Exception
 
