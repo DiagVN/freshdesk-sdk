@@ -32,8 +32,8 @@ Time: 2:32 PM</long-description>
     <namespace-alias name="Product">\DiagVN\Freshdesk\Resources\Product</namespace-alias>
     <namespace-alias name="SLAPolicy">\DiagVN\Freshdesk\Resources\SLAPolicy</namespace-alias>
     <namespace-alias name="Ticket">\DiagVN\Freshdesk\Resources\Ticket</namespace-alias>
-    <namespace-alias name="TimeEntry">\Freshdesk\Resources\TimeEntry</namespace-alias>
-    <namespace-alias name="Topic">\Freshdesk\Resources\Topic</namespace-alias>
+    <namespace-alias name="TimeEntry">\DiagVN\Freshdesk\Resources\TimeEntry</namespace-alias>
+    <namespace-alias name="Topic">\DiagVN\Freshdesk\Resources\Topic</namespace-alias>
     <namespace-alias name="Client">\GuzzleHttp\Client</namespace-alias>
     <namespace-alias name="RequestException">\GuzzleHttp\Exception\RequestException</namespace-alias>
     <class final="false" abstract="false" namespace="Freshdesk" line="48" package="Api">
@@ -55,8 +55,8 @@ via the relevant public properties</long-description>
           <description>Agent resources</description>
           <long-description></long-description>
           <tag name="api" line="56" description=""/>
-          <tag name="var" line="56" description="" type="\Freshdesk\Resources\Agent" variable="">
-            <type>\Freshdesk\Resources\Agent</type>
+          <tag name="var" line="56" description="" type="\DiagVN\Freshdesk\Resources\Agent" variable="">
+            <type>\DiagVN\Freshdesk\Resources\Agent</type>
           </tag>
         </docblock>
       </property>
@@ -68,8 +68,8 @@ via the relevant public properties</long-description>
           <description>Company resources</description>
           <long-description></long-description>
           <tag name="api" line="64" description=""/>
-          <tag name="var" line="64" description="" type="\Freshdesk\Resources\Company" variable="">
-            <type>\Freshdesk\Resources\Company</type>
+          <tag name="var" line="64" description="" type="\DiagVN\Freshdesk\Resources\Company" variable="">
+            <type>\DiagVN\Freshdesk\Resources\Company</type>
           </tag>
         </docblock>
       </property>
@@ -81,8 +81,8 @@ via the relevant public properties</long-description>
           <description>Contact resources</description>
           <long-description></long-description>
           <tag name="api" line="72" description=""/>
-          <tag name="var" line="72" description="" type="\Freshdesk\Resources\Contact" variable="">
-            <type>\Freshdesk\Resources\Contact</type>
+          <tag name="var" line="72" description="" type="\DiagVN\Freshdesk\Resources\Contact" variable="">
+            <type>\DiagVN\Freshdesk\Resources\Contact</type>
           </tag>
         </docblock>
       </property>
@@ -94,7 +94,7 @@ via the relevant public properties</long-description>
           <description>Group resources</description>
           <long-description></long-description>
           <tag name="api" line="80" description=""/>
-          <tag name="var" line="80" description="" type="\Freshdesk\Resources\Group" variable="">
+          <tag name="var" line="80" description="" type="\DiagVN\Freshdesk\Resources\Group" variable="">
             <type>\Freshdesk\Resources\Group</type>
           </tag>
         </docblock>

@@ -1,4 +1,4 @@
-Freshdesk\Resources\Product
+DiagVN\Freshdesk\Resources\Product
 ===============
 
 Email Config resource

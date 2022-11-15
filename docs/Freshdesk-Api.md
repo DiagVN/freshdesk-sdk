@@ -20,7 +20,7 @@ Properties
 
 ### $agents
 
-    public \Freshdesk\Resources\Agent $agents
+    public \DiagVN\Freshdesk\Resources\Agent $agents
 
 Agent resources
 
@@ -31,7 +31,7 @@ Agent resources
 
 ### $companies
 
-    public \Freshdesk\Resources\Company $companies
+    public \DiagVN\Freshdesk\Resources\Company $companies
 
 Company resources
 
@@ -42,7 +42,7 @@ Company resources
 
 ### $contacts
 
-    public \Freshdesk\Resources\Contact $contacts
+    public \DiagVN\Freshdesk\Resources\Contact $contacts
 
 Contact resources
 
@@ -53,7 +53,7 @@ Contact resources
 
 ### $groups
 
-    public \Freshdesk\Resources\Group $groups
+    public \DiagVN\Freshdesk\Resources\Group $groups
 
 Group resources
 
@@ -64,7 +64,7 @@ Group resources
 
 ### $tickets
 
-    public \Freshdesk\Resources\Ticket $tickets
+    public \DiagVN\Freshdesk\Resources\Ticket $tickets
 
 Ticket resources
 
@@ -75,7 +75,7 @@ Ticket resources
 
 ### $timeEntries
 
-    public \Freshdesk\Resources\TimeEntry $timeEntries
+    public \DiagVN\Freshdesk\Resources\TimeEntry $timeEntries
 
 TimeEntry resources
 
@@ -86,7 +86,7 @@ TimeEntry resources
 
 ### $conversations
 
-    public \Freshdesk\Resources\Conversation $conversations
+    public \DiagVN\Freshdesk\Resources\Conversation $conversations
 
 Conversation resources
 
@@ -97,7 +97,7 @@ Conversation resources
 
 ### $categories
 
-    public \Freshdesk\Resources\Category $categories
+    public \DiagVN\Freshdesk\Resources\Category $categories
 
 Category resources
 
@@ -108,7 +108,7 @@ Category resources
 
 ### $forums
 
-    public \Freshdesk\Resources\Forum $forums
+    public \DiagVN\Freshdesk\Resources\Forum $forums
 
 Forum resources
 
@@ -119,7 +119,7 @@ Forum resources
 
 ### $topics
 
-    public \Freshdesk\Resources\Topic $topics
+    public \DiagVN\Freshdesk\Resources\Topic $topics
 
 Topic resources
 
@@ -130,7 +130,7 @@ Topic resources
 
 ### $comments
 
-    public \Freshdesk\Resources\Comment $comments
+    public \DiagVN\Freshdesk\Resources\Comment $comments
 
 Comment resources
 
@@ -141,7 +141,7 @@ Comment resources
 
 ### $emailConfigs
 
-    public \Freshdesk\Resources\EmailConfig $emailConfigs
+    public \DiagVN\Freshdesk\Resources\EmailConfig $emailConfigs
 
 Email Config resources
 
@@ -152,7 +152,7 @@ Email Config resources
 
 ### $products
 
-    public \Freshdesk\Resources\Product $products
+    public \DiagVN\Freshdesk\Resources\Product $products
 
 Access Product resources
 
@@ -163,7 +163,7 @@ Access Product resources
 
 ### $businessHours
 
-    public \Freshdesk\Resources\BusinessHour $businessHours
+    public \DiagVN\Freshdesk\Resources\BusinessHour $businessHours
 
 Business Hours resources
 
@@ -174,7 +174,7 @@ Business Hours resources
 
 ### $slaPolicies
 
-    public \Freshdesk\Resources\SLAPolicy $slaPolicies
+    public \DiagVN\Freshdesk\Resources\SLAPolicy $slaPolicies
 
 SLA Policy resources
 

@@ -108,7 +108,7 @@ Updates the resources for the given $id with the supplied data/.
 
 ### delete
 
-    array|null Freshdesk\Resources\TimeEntry::delete(\Freshdesk\Resources\Traits\in $id)
+    array|null Freshdesk\Resources\TimeEntry::delete(\DiagVN\Freshdesk\Resources\Traits\in $id)
 
 Delete a resource
 
