@@ -12,7 +12,7 @@ If you have questions, please contact me or open an issue on GitHub.
 ## Quick Start
 ```phpg
 require __DIR__ . '/vendor/autoload.php';
-use \Freshdesk\Api;
+use \DiagVN\Freshdesk\Api;
 
 $api = new Api("your_freshdesk_api_key", "your_freshdesk_domain");
 
@@ -38,12 +38,12 @@ $first = $all[0];
 
 To integrate this library into your application, use [Composer](https://getcomposer.org).
 
-Add `mpclarkson/freshdesk-php-sdk` to your **composer.json** file:
+Add `diagvn/freshdesk-sdk` to your **composer.json** file:
 
 ```json
 {
     "require": {
-        "mpclarkson/freshdesk-php-sdk": "dev-master"
+        "diagvn/freshdesk-sdk": "dev-main"
     }
 }
 ```
@@ -65,7 +65,7 @@ API key and your Freshdesk domain.
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
-use \Freshdesk\Api;
+use \DiagVN\Freshdesk\Api;
 
 $api = new Api("your_freshdesk_api_key", "your_freshdesk_domain");
 ```
