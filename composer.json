@@ -17,8 +17,5 @@
     },
     "autoload": {
         "psr-4": {"DiagVN\\Freshdesk\\": "src/"}
-    },
-    "autoload-dev": {
-        "psr-4": { "Freshdesk\\tests\\": "tests/" }
     }
 }
